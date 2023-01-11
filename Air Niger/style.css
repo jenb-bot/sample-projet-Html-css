@@ -1,0 +1,342 @@
+/*General*/
+*{
+	margin: 0;
+	padding: 0;
+
+}
+body
+{
+	font-family: Arial, sans-serif; 
+	font-size: 15px;
+}
+h1
+{
+	font-family: Elephant  ;
+	font-size: 45px;
+	color: #444;
+}
+h4{
+font-size: 24px;  
+color: #444;
+text-transform: uppercase;
+margin-bottom: 20px;
+}  
+p
+{
+	line-height: 20px;
+	color: #777;
+
+}
+.wrapper
+{
+	width: 900px;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+.orange{
+	color: #ff7100;
+}
+ul
+{
+	list-style: none;
+
+}
+
+a{
+	text-decoration: none;
+	color: rgb(223, 73, 14);
+
+}
+small{
+    font-size: 13px;
+    font-style: italic;
+}
+h3{
+    font-size: 30px;
+    color: #444;
+
+}
+
+
+
+/*Header*/
+header
+{
+	height: 120px;// taille pour le header;
+}
+header h1
+{
+	float: left;
+	margin-top: 32px;
+}
+header nav
+{
+	float: right;
+	margin-top: 50px;
+    margin-right: 0 ;
+}
+
+header nav ul li   
+{
+	display: inline-block;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-right: 20px;
+	float: left;
+    font-size: 20px;
+    
+}
+header nav ul li a  
+{
+	 
+    font-size: 20px;
+    color: #ff7100;
+    
+}
+a:hover{
+    color: black;
+}
+
+ /* MAIN IMAGE */
+
+#main-image
+{
+    height: 400px;
+    background: url('images/miami.jpg') center;
+}
+
+#main-image h2
+{
+    font-weight: bold;
+    position: relative;
+    bottom: 70px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 160px 0 40px 0;
+    margin-bottom: 25px;
+    font-size: 50px;
+    margin-top: 10px;
+    color: #c28b5d;
+    text-shadow: 5px 2px rgb(2, 2, 20);
+     
+
+     
+     
+   
+}
+
+.button-1
+{
+    display: block;
+    position: relative;
+    bottom: 70px;
+    width: 120px;
+    height: 50px;
+    background: #ff7a00;
+    color: #fff;
+    font-size: 30px;
+      margin: 0 auto;
+    line-height: 50px;
+    text-align: center;
+    border-radius:  3px;
+}
+.button-1:hover
+{
+     background: #02b8dd;
+}
+.avion
+{  width: 400px;
+    height: 200px;
+    display: block;
+    background: #ff7a00;
+    float: right;
+    position: absolute;
+    right: 100px;
+    top:150px;
+    background: url('images/avion.png') no-repeat;
+    
+   
+}
+
+/*STEPS*/
+
+#steps ul
+{
+    margin: 80px 0;
+}
+#steps ul li
+{
+    width: 250px;
+    float:left;
+    padding-top: 140px;
+    text-align: center;
+    margin-right: 10px;
+    
+}
+#steps h4
+{
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+#steps p
+{
+    margin-bottom: 20px;
+}
+#step1
+{
+    background: url('images/steps-icon1.png') no-repeat top center;
+}
+#step2
+{
+    background: url('images/steps-icon2.png') no-repeat top center;
+    
+}
+#step3
+{
+    background: url('images/steps-icon3.png') no-repeat top center;
+}
+.clear
+{
+    clear: both;   
+}
+
+
+/* POSSIBILITIES */
+
+
+#possibilities
+{
+    background-color: #efefef;
+    padding:  60px 0;
+}
+#possibilities article
+{
+    width: 340px;
+    height: 230px;
+    float: left;
+    border-radius: 10px;
+}
+#possibilities article:first-child
+{
+    margin-right: 200px;
+    
+}
+.overlay
+{
+    background: rgba(255,255,255, 0.95);
+    height: 100%;
+    width: 170px;
+    padding: 20px;
+    border-radius: 10px 0 0 10px;
+    text-align: center;
+    box-sizing: border-box;
+}
+article h4
+{
+    border-bottom:  1px solid #ddd;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    text-align: center;
+}
+#possibilities p
+{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.button-2
+{
+    color: #fff;
+    background-color: #ff7a00;
+    padding: 6px 20px;
+    border-radius: 3px;
+}
+.button-2:hover
+{
+    color: #fff;
+    background-color: #02b8dd;
+}
+
+
+
+/* CONTACT */
+
+#contact
+{
+    padding: 60px 0;
+    text-align: center;
+ 
+   
+}
+
+#contact h3
+{
+    width: 900px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    margin: 0 auto 20px auto #02b8dd;
+    padding: 20px;
+    text-align: center;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #02b8dd;
+    border-top: #444;
+}
+
+form
+{
+    margin: 60px 0 20px 0;
+
+}
+label
+{
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 10px;
+    color: grey;
+
+}
+input [type="text"]
+{
+    padding: 20px;
+    font-size: 20px;
+    margin-right: 20px;
+    border: 2px solid #ddd;
+    border-radius: 3px;
+}
+
+.button-3{
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    padding:11px ;
+    background-color: #02b8dd;
+    border-style: none;
+}
+
+.button-3 :hover
+{
+    color: #fff;
+   background-color: #444;
+}
+
+/*footer*/
+footer
+{
+    background-color: #444;
+    
+    height: 260px;
+}
+
+footer h1{
+    color: #fff;
+    text-align: center;
+    padding: 50px;
+}
+.copyright
+{  
+    text-align: center;
+    color: rgb(255, 255, 255);
+   
+    
+}

@@ -1,0 +1,15 @@
+body
+{
+background-color: silver;
+}
+.wrapper
+{
+    height: 400px;
+    width: 700px;
+  background-color: aqua;
+  position: relative;
+  top: 200px;
+  margin: auto;
+ 
+}
+ 
